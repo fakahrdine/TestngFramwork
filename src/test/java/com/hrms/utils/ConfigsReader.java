@@ -1,0 +1,42 @@
+package com.hrms.utils;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ConfigsReader {
+	/**
+	 * This method will read properties file
+	 * 
+	 * @param filePath
+	 */
+	public static Properties prop;
+
+	public static void readPropertieas(String filePath) {
+
+		try {
+			FileInputStream fis = new FileInputStream(filePath);
+			prop = new Properties();
+			prop.load(fis);
+			fis.close();
+		} catch (FileNotFoundException e) {
+
+			e.printStackTrace();
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
+
+	}
+/**
+ * This method will return value of specified key
+ * @param Accept String  key
+ * @return String value
+ */
+	public static String getProperty(String key) {
+		return prop.getProperty(key);
+
+	}
+
+}

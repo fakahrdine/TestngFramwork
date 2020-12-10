@@ -1,0 +1,324 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 10, Errors: 0, Skipped: 10, Time elapsed: 22.655 s <<< FAILURE! - in TestSuite
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 6.17 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.509 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.557 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.538 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.453 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.824 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.438 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.addEmployeeTest.setUP  Time elapsed: 1.434 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.LoginTest.setUP  Time elapsed: 3.743 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+
+com.hrms.testcases.LoginTest.setUP  Time elapsed: 1.421 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '192.168.200.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F69563+2725219]
+	Ordinal0 [0x00E68551+1672529]
+	Ordinal0 [0x00D50359+525145]
+	Ordinal0 [0x00CE0B77+68471]
+	Ordinal0 [0x00CDD32C+54060]
+	Ordinal0 [0x00CFCC37+183351]
+	Ordinal0 [0x00CFCA3D+182845]
+	Ordinal0 [0x00CFA94B+174411]
+	Ordinal0 [0x00CE2528+75048]
+	Ordinal0 [0x00CE35A0+79264]
+	Ordinal0 [0x00CE3539+79161]
+	Ordinal0 [0x00E7D607+1758727]
+	GetHandleVerifier [0x01086546+1050150]
+	GetHandleVerifier [0x01086291+1049457]
+	GetHandleVerifier [0x010910D7+1094071]
+	GetHandleVerifier [0x01086B46+1051686]
+	Ordinal0 [0x00E75B06+1727238]
+	Ordinal0 [0x00E7EB7B+1764219]
+	Ordinal0 [0x00E7ECE3+1764579]
+	Ordinal0 [0x00E94C05+1854469]
+	BaseThreadInitThunk [0x75AF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77977C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77977BF4+180]
+
+

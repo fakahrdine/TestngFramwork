@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+	<listeners>
+
+		<listener class-name="com.hrms.testbase.Lisetener"></listener>
+
+	</listeners>
+
+	<test thread-count="5" name="RegressionTest">
+		<groups>
+			<run>
+
+				<include name="Regression"></include>
+
+
+
+			</run>
+
+
+
+		</groups>
+
+
+		<classes>
+			<class name="com.hrms.testcases.addEmployeeTest" />
+			<class name="com.hrms.testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- S -->
